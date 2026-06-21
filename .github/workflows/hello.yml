@@ -18,7 +18,7 @@ jobs:
 # Should be insite the job this steps will have a name and rub will have the commands
     steps:
       - name: say hello to everyone
-        run: echo"hello doato"
+        run: echo "hello doato"
 # Actions
 
 # Should be inside the Steps
