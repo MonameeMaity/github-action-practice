@@ -11,3 +11,5 @@ jobs:
         uses: actions/checkout@v7
       - name: install ruff
         run: pip install ruff
+      - name: check code
+        run: ruff check .
